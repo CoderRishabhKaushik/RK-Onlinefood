@@ -8,6 +8,9 @@
 
 
 /*navigation bar*/ 
+#logo img{
+    border-radius: 50%;
+}
 #navbar{
     display :flex ;
     position: sticky;
