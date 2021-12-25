@@ -198,6 +198,7 @@ height: 344px;
     cursor: pointer;
     width: 60px;
     text-decoration: none;
+    justify-content: center;
     text-align: center;
     box-shadow: #000000c9 0px 0px 13px 6px;
 }
