@@ -16,6 +16,8 @@
     position: sticky;
     align-items: center;
     top: 0%;
+    z-index: 10;
+
     }
     #navbar::before{
         content: "";
@@ -25,7 +27,7 @@
         left: 0%;
         height: 100%;
         width: 100%; 
-        z-index: -1;
+        z-index: -2;
        opacity: 0.4;    
    }
 
@@ -122,9 +124,8 @@
 /* client section */
 #client-section{
     position: relative;
-   
-    
-height: 344px;
+    height: 344px;
+  
 }
 #client-section::before{
     content: "";
@@ -143,6 +144,8 @@ height: 344px;
     display: flex;
     justify-content: center;
     align-items: center;
+   
+  
 }
 .client-item{
     padding: 34px ;
