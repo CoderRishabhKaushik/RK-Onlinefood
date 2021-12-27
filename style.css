@@ -10,6 +10,9 @@
 /*navigation bar*/ 
 #logo img{
     border-radius: 50%;
+    border: 1px groove black;
+  
+
 }
 #navbar{
     display :flex ;
